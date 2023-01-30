@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIL Laboratory</title>
+    <script type="text/javascript" src="js/jilj.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-5.15.4/css/all.css">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jil-MQ.css">
+    <link rel="stylesheet" type="text/css" href="css/jil-med.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm">
+        <a href="#" class="navbar-brand">
+            <img src="img/jil labs.png" alt="" width="80" height="40">
+        </a>
+        <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false"><span style="color:black;" class="fa fa-bars"></span></button> 
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> 
+                <a href="#" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item"> 
+                <a href="#" class="nav-link">BLOG</a>
+            </li>
+            <li class="nav-item"> 
+                <a href="#jil_services" class="nav-link">SERVICES</a>
+            </li>                 
+            <li>
+                <a href="jil-store.html" class="nav-link">STORE</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link"><button onclick="rep_srch()" class="btn btn-primary btn-sm"><span class="fa fa-search"></span></button>  </a>
+            </li>
+            <li class="nav-item search-me" id="srch-box">
+                <input type="text" class="form-control" placeholder="search">
+            </li>
+        </ul>
+       
+    </div>
+</nav>
+
+<section class="jil-banner">
+    <div class="banner-fade">
+        <div class="jil-banner-text">
+            <h3>Welcome to JIL Medical Laboratory</h3>
+                <div class="banner-faq">
+                    <div class="flex-container">
+                        <div class="faq-text">
+                            <span>We offer quality and client-satisfied tests and diagnoses. Feel free to book an appointment with us today. Remember <span style="color:deepskyblue; font-size:bold;">"Your Health is our priority"</span>...</span> <br>
+                            <span class="intro-read">We offer quality and client satisfied test and diagnoses. feel free to book an appointment with us today. We also offer counselling for retroviral patients on how hey can effectively manage their sicknesses 
+                                and have a good life. We open on all days except for sundays, from 7:00am to 5:00pm. Feel free to walk into our laboratory when you feeling discomfort as we have well trained personnels that will attend to you.
+                            </span>
+                            <a href="#jil-services"><button class="btn btn-primary btn-sm">Read More  <span class="fa fa-caret-down"></span></button></a>
+                        </div>
+                        <div class="faq-form">
+                            <form action="" id="jilContactForm" name="myform" onsubmit="validateform();">
+                            <h5>Let's Go Today!</h5>
+                            <input type="text"  id="" placeholder="Name* " class="form-control" name="name" required>
+                            <input type="text"  id="" placeholder="Phone " class="form-control" name="phone" required>
+                            <input type="email"  id="" placeholder="Email* " class="form-control" name="email" required>
+                            <button class="btn btn-danger btn-sm" type="submit" value="submit">SEND MESSAGE <span class="fa fa-envelope"></span> </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<div class="jil-services" id="jil-services">
+    <h3>High Quality Services</h3>
+    <p>JIL Medical Diagnostics and Laboratories is a private owned laboratory aimed at recalculatively carrying out effective and affordable tests for the wellbeing of patients both in Uyo
+        and other parts of the country. We have a well equipped Chemical Pathology, Blood bank and other medical segments to better take care of our clients 
+        to a satisfactory level.</p>
+</div>
+
+<section class="service-cards">
+    <div class="flex-container">
+        <div>
+            <div class="card" style="border-radius:0.6em;">
+                <img src="img/jil1.jpeg" alt="Make sure your connected to Internet" class="card-img-top" height="150">
+                <h4 class="card-title" style="text-align:center;">Chemical Pathology</h4>
+                <div class="card-body">
+                 <p style="text-align:justify;">Chemical Pathology department comprises of tests like EUC, Fasting Blood Sugar, HBAIC, Hormonal assays, Thyroid Function Tests(TFT), Liver Function Test(LFT), Urinalysis, C-Reactive Protein(CRP), Electrolytes. Random Blood Sugar (RBC.) </p>
+                 <a href="#contact-jil" class="btn btn-primary">Contact Us <span class="fa fa-envelope"></span> </a>
+                </div>
+         </div>
+        </div>
+        <div>
+            <div class="card" style="border-radius:0.6em;">
+                <img src="img/jil8.png" alt="Make sure your connected to Internet" class="card-img-top" height="150">
+                <h4 class="card-title" style="text-align:center;">Haematology/Blood Bank</h4>
+                <div class="card-body">
+                 <p style="text-align:justify;">Haematology/Blood Bank department comprises of tests like Packed Cell Volume(PCV), tests to determine the level of blood cells in the body e.g red, white blood cell blood cells. 
+                    All core blood related tests are done and functionally handled here.</p>
+                    <a href="#contact-jil" class="btn btn-primary">Contact Us <span class="fa fa-envelope"></span> </a>
+                </div>
+         </div>
+        </div>
+        <div>
+            <div class="card" style="border-radius:0.6em;">
+                <img src="img/jil10.jpeg" alt="Make sure your connected to Internet" class="card-img-top" height="150">
+                <h4 class="card-title" style="text-align:center;">Microbiology</h4>
+                <div class="card-body">
+                 <p style="text-align:justify;">This sector is purely microscopic nd at such it is where tests like culture and sensitivity of different media are being carried out. Tests like Urine, Faeces, Sweat culture MC/S. All related microscopic tests that require microscope are done here. </p>
+                 <a href="#contact-jil" class="btn btn-primary">Contact Us <span class="fa fa-envelope"></span> </a>
+                </div>
+         </div>
+        </div>
+        <div>
+            <div class="card" style="border-radius:0.6em;">
+                <img src="img/jil6.jpeg" alt="Make sure your connected to Internet" class="card-img-top" height="150">
+                <h4 class="card-title" style="text-align:center;">HTS/Retroviral Disease</h4>
+                <div class="card-body">
+                 <p style="text-align:justify;">This is where Antiretroviral illnesses are handled. We have the HTS (HIV Testing Services) and other retroviral illnesses. there are properly handled in this department. List of all antiretroviral illnesses include the following; Hepatitis A, B and C, HIV etc </p>
+                 <a href="#contact-jil" class="btn btn-primary">Contact Us <span class="fa fa-envelope"></span> </a>
+                </div>
+         </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="jilj.js"></script>
+
+<section class="form-sect">
+    <div class="form-sect-fade">
+        <div class="sect-fade-text" id="wayaya">
+            <h4 style="color:darkblue;">Welcome to JIL Lab</h4>
+            <h5>Your full service lab for clinical trials</h5>
+            <p>JIL Diagnostics and  Laboratory have been tested and trusted in all spheres of clinical <br> laboratory tests and there is no place you can get standardized and on-time diagnoses <br> in Uyo currently. Get started by clicking on the button below to print our request form. </p>
+            <div class="row">
+                <div class="col">
+                    <a href="#jil_banner" class="btn btn-danger">Get Form <span class="fa fa-print"></span> </a>
+                </div>
+                <div class="col" id="contact_in">
+                   <a href=""> <span class="fa fa-credit-card-alt fa-2x"></span> </a>
+                   <a href=""> <span class="fa fa-cc-mastercard fa-2x"></span> </a>
+                   <a href=""> <span class="fa fa-cc-visa fa-2x"></span> </a>
+                   <a href=""> <span class="fa fa-cc-paypal fa-2x"></span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<article class="appt">
+    <h3>Make an Appointment <span class="fa fa-calendar-check-o"></span></h3>
+    <div class="appt-form">
+    <form action="" id="ar_form" name="app_form" style="margin-top:2em;" onsubmit="validateappform();">
+        <input type="text" class="form-control" placeholder="Your Name*" name="app_name" required>
+        <input type="text" class="form-control" placeholder="Your Email*" name="app_email" required>
+        <textarea name="" id="" name="app_commt" rows="8" placeholder="Your Message" style="border-radius:2px;" class="form-control" required></textarea> 
+        <!-- <span style="color:red;" id="comm_err">*your comments should be up to 30 words minimum*</span> <br> -->
+
+     
+
+      <input type="checkbox"> I agree that the above details are correct <br><br>
+      <button class="btn btn-primary">Send Message</button>
+    </form>
+</div>
+</article>
+
+<footer class="jil-footer">
+    <div class="flex-container">
+        <div>
+            <h4>About JIL Labs</h4>
+            JIL Laboratories and Diagnostics is a private <br> and fully functional laboratory managed by <br> JIL Enterprises.
+          <br>  You can follow us via the following media platforms. <br> <br>
+            <a href=""> <span class="fa fa-facebook-square fa-2x" title="were not on this platform at the moment"></span> </a>
+            <a href=""> <span class="fa fa-twitter-square fa-2x"></span> </a>
+            <a href=""> <span class="fa fa-instagram fa-2x"></span> </a>
+            <a href=""> <span class="fa fa-whatsapp fa-2x"></span> </a>
+        </div>
+        <div>
+            <h4>Services</h4>
+            <a href=""> Sample Preparation</a> <br>
+            <a href=""> Healthcare Labs</a> <br>
+            <a href=""> JIL Medical Shop</a> <br>
+            <a href=""> DNA Testing (New arrival)</a> <br>
+            <a href=""> Advanced Microscopy</a> <br>
+            <a href=""> Pathology Testing</a> 
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <a href="">About Us</a> <br>
+            <a href="">Services</a> <br>
+            <a href="">Our Team</a> <br>
+            <a href="">FAQ</a> <br>
+            <a href="">Award & Recognition</a> <br>
+            <a href="">Contact us</a>
+        </div>
+        <div id="contact-jil">
+            <h4>Contact Info</h4>
+            <span class="fa fa-map-marker"></span> 143e Oron Road Uyo, Akwa Ibom State <hr>
+            <span class="fa fa-phone"></span>    +234 806 411 9630, +234 802 352 2932 <hr>
+            <span class="fa fa-envelope"></span> jillabdiagnos@yahoo.co.uk <hr>
+            <span class="fa fa-globe"></span> www.jilabdiagnostics.com <hr>
+        </div>
+    </div>
+
+    <p style="text-align:center;margin-right:8em;">&copy;2022 All rights fully reserved <br> Designed and developed by Maurice Akanimo</p>
+
+    <div class="pull-right">
+        <span onclick="topFunction();" class="fa fa-chevron-circle-up fa-2x" id="myBtn" title="Back to top"></span>
+    </div>
+</footer>
+
+<script type="text/javascript" src="jilj.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>   
+</body>
+</html>

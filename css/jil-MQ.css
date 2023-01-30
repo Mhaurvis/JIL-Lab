@@ -1,0 +1,238 @@
+@media screen and (max-width:320px){
+    section.jil-banner{
+        background-image: url("..//img/jil2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        width: 100%;
+        height: 90vh;
+    }
+
+    div.jil-banner-text{
+        position: absolute;
+        text-align: left;
+        left: 20px;
+        top: 20px;
+        color: white;
+    }
+    
+    section.jil-banner span{
+        font-size: 15px;
+    }
+
+    section.jil-banner h3{
+        font-size: 1em;
+        background-image: linear-gradient(to right, white, white);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 1em;
+    }
+
+
+
+    div.banner-faq .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div.faq-text a{
+        display: none;
+    }
+
+    div.jil-services p{
+        text-align: justify;
+    }
+
+    section.form-sect{
+        background-image: url("..//img/jil5.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        height: 35vh;
+    }
+
+    .service-cards .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section.form-sect{
+        background-image: url("..//img/jil5.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        height: 45vh;
+    }
+
+    div.sect-fade-text{
+        background-color: white;
+        position: absolute;
+        padding: 1em;
+        top: 30px;
+        left: 10px;
+        margin-right: 1em;
+    }
+
+    div.sect-fade-text h4{
+        font-size: 20px;
+    }
+
+    div.sect-fade-text h5{
+        font-size: 12px;
+    }
+
+    div.sect-fade-text p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    div.sect-fade-text #contact_in{
+        font-size: 0.8em;
+    }
+
+    .jil-footer .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width:480px){
+    section.jil-banner{
+        background-image: url("..//img/jil2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        width: 100%;
+        height: 70vh;
+    }
+
+    div.jil-banner-text{
+        position: absolute;
+        text-align: left;
+        left: 20px;
+        top: 0px;
+        color: white;
+    }
+
+    section.jil-banner h3{
+        font-size: 3.5em;
+        background-image: linear-gradient(to right, white, white);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 1em;
+    }
+
+    div.jil-services p{
+        text-align: justify;
+    }
+
+    .service-cards .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .jil-footer .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    div.sect-fade-text{
+        background-color: white;
+        position: absolute;
+        padding: 1em;
+        top: 30px;
+        left: 10px;
+        margin-right: 1em;
+    }
+
+    div.sect-fade-text h4{
+        font-size: 20px;
+    }
+
+    div.sect-fade-text h5{
+        font-size: 16px;
+    }
+
+    div.sect-fade-text p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    div.sect-fade-text #contact_in{
+        font-size: 0.8em;
+    }
+
+}
+
+
+
+@media screen and (max-width:600px){
+    section.jil-banner{
+        background-image: url("..//img/jil2.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position:relative;
+        width: 100%;
+        height: 105vh;
+    }
+
+    div.jil-services p{
+        text-align: justify;
+    }
+
+    .service-cards .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
+    div.sect-fade-text{
+        background-color: white;
+        position: absolute;
+        padding: 1em;
+        top: 20px;
+        left: 10px;
+        margin-right: 1em;
+    }
+
+    div.sect-fade-text p{
+        text-align: justify;
+    }
+
+
+    .jil-footer .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .jil-footer .flex-container > *{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .service-cards .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .service-cards .flex-container > *{
+        width: 100%;
+        margin: 200px;
+    }
+}
